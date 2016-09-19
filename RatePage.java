@@ -15,7 +15,7 @@ import android.widget.Button;
 import android.widget.RatingBar;
 import android.widget.TextView;
 import android.widget.Toast;
-
+//added in app
 public class RatePage extends Activity {
 
 	RatingBar ratingBar,ratingBar1;
@@ -100,6 +100,11 @@ public class RatePage extends Activity {
 
 		// Showing Alert Message
 		alertDialog.show();
+	}
+	
+	public void onBackPressed(){
+		Toast.makeText(getApplicationContext(), "Nothing", Toast.LENGTH_SHORT).show();
+		
 	}
 
 	@Override
