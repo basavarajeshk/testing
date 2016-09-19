@@ -104,7 +104,7 @@ public class RatePage extends Activity {
 	
 	public void onBackPressed(){
 		Toast.makeText(getApplicationContext(), "Nothing", Toast.LENGTH_SHORT).show();
-		
+		Log.d("hi","hi");
 	}
 
 	@Override
